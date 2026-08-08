@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: proyecto-similitud
+Version: 0.1.0
+Summary: Buscador de canciones similares por embeddings de audio (uso personal)
+Requires-Python: >=3.10
+Requires-Dist: transformers>=4.35.0
+Requires-Dist: torch>=2.1.0
+Requires-Dist: librosa>=0.10.0
+Requires-Dist: soundfile>=0.12.0
+Requires-Dist: numpy>=1.24.0
+Requires-Dist: scipy>=1.11.0
+Requires-Dist: requests>=2.31.0
+Requires-Dist: pydub>=0.25.1
+Requires-Dist: click>=8.1.0
+Requires-Dist: rich>=13.0.0
+Requires-Dist: psutil>=5.9.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.4.0; extra == "dev"
+Requires-Dist: pytest-mock>=3.12.0; extra == "dev"

@@ -1,0 +1,2 @@
+[console_scripts]
+similitud = proyecto_similitud.main:cli
